@@ -1,6 +1,6 @@
+import 'package:bloc_pattern_app/Form.dart';
 import 'package:bloc_pattern_app/Scan_Text.dart';
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(MyApp());
 }
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: ScanText(),
+      home: HomePage(),
     );
   }
 }
